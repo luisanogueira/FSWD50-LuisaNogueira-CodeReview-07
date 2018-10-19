@@ -10,12 +10,13 @@ import { AngularFireDatabaseModule } from "angularfire2/database";
 import { environment } from "../environments/environment";
 
 import { NavbarComponent } from './navbar/navbar.component';
-import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { CustomerComponent } from './customer/customer.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerService } from "./shared/customer.service";
+import { HomePageComponent } from './home-page/home-page.component';
+import { ContactsPageComponent } from './contacts-page/contacts-page.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +25,9 @@ import { CustomerService } from "./shared/customer.service";
     CustomerListComponent,
 
     NavbarComponent,
-    MainComponent,
-    FooterComponent
+    FooterComponent,
+    HomePageComponent,
+    ContactsPageComponent
   ],
 
   imports: [
