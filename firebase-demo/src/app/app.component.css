@@ -1,0 +1,12 @@
+.top {
+	background-image: url("/../assets/img/friends.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+h1 {
+	text-align: center;
+    padding: 20px;
+}
