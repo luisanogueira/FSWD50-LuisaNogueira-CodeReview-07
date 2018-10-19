@@ -1,0 +1,13 @@
+.mainTitle, h4 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FF8C00;
+}
+
+.table {
+	margin: 10px;
+}
+
+.card-text {
+	margin-top: -60px;
+}

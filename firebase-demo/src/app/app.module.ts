@@ -17,6 +17,7 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerService } from "./shared/customer.service";
 import { HomePageComponent } from './home-page/home-page.component';
 import { ContactsPageComponent } from './contacts-page/contacts-page.component';
+import { ImportantContactsComponent } from './important-contacts/important-contacts.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ContactsPageComponent } from './contacts-page/contacts-page.component';
     NavbarComponent,
     FooterComponent,
     HomePageComponent,
-    ContactsPageComponent
+    ContactsPageComponent,
+    ImportantContactsComponent
   ],
 
   imports: [
